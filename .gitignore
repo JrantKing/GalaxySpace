@@ -1,5 +1,5 @@
 *.class
-1.7.10/java/*
+1.7.10/*
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
