@@ -204,4 +204,46 @@ public class CreateJsonFileHelper {
 			System.out.println(ex);
 		}
 	}
+    //         ***********ITEMS META************
+	public static void addItemMetadataJsonFiles(Item item, String[] variants){
+		try{
+			for(int i = 0; i < variants.length; i++){
+				File modelItemMeta = new File(path + "/models/item/", item.getUnlocalizedName().substring(5) + ".json");
+				File modelVariantsItemMeta = new File(path + "/models/item/", variants[i] + ".json");
+			   if(variants[i] != variants[0]){ /**because the first file must be item.getUnlocalizedName()*/
+				if(modelVariantsItemMeta.createNewFile()){
+					modelVariantsItemMetaJson(item, variants, modelVariantsItemMeta, i);
+				} else if(modelVariantsItemMeta.exists()){
+					modelVariantsItemMetaJson(item, variants, modelVariantsItemMeta, i);
+				  }
+			   } else {
+					if(modelItemMeta.createNewFile()){
+						modelVariantsItemMetaJson(item, variants, modelItemMeta, i);
+					} else if(modelItemMeta.exists()){
+						modelVariantsItemMetaJson(item, variants, modelItemMeta, i);
+					}
+			    }
+			}
+			
+		} catch(IOException ex){
+			System.out.println(ex);
+		}
+	}
+	private static void modelVariantsItemMetaJson(Item item, String[] variants, File file, int i) {
+		try{
+			FileWriter writer = new FileWriter(file);
+			writer.write(
+			"{"
+			+ " \"parent\": \"item/generated\", "
+			+     " \"textures\": { "
+			+         "\"layer0\" : "
+			+          "\"" + ModInfo.MODID + ":items/" + item.getUnlocalizedName().substring(5) + "." + variants[i] + "\""
+			+       "}"
+			+   "}"
+			);
+			writer.close();
+		} catch(IOException ex){
+			System.out.println(ex);
+		}
+	}
 }
