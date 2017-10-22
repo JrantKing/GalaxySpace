@@ -1,4 +1,4 @@
-#Simplified Chinese (CN) made by Jrant
+#Traditional Chinese (CN) made by Jrant
 # Dimensions
 achievement.miningcoppergc=這就是我們已經看到的...
 achievement.miningcoppergc.desc=開採銅礦石
@@ -85,6 +85,18 @@ tile.DecoPlatinum.name=裝飾鉑塊
 tile.DecoWolframium.name=裝飾鎢塊
 tile.DecoCopper.name=裝飾銅塊
 
+tile.Lead.name=鉛塊
+tile.Adamantite.name=精金塊
+tile.Cobalt.name=鈷塊
+tile.Duralumin.name=杜拉鋁塊
+tile.Magnesium.name=鎂塊
+tile.Mithril.name=秘銀塊
+tile.Nickel.name=鎳塊
+tile.Oriharukon.name=山銅塊
+tile.Platinum.name=鉑塊
+tile.Wolframium.name=鎢塊
+tile.Copper.name=銅塊
+
 tile.FutureGlass_None.name=未來玻璃
 tile.FutureGlass_Black.name=黑色未來玻璃
 tile.FutureGlass_Red.name=紅色未來玻璃
@@ -152,6 +164,7 @@ tile.IODungFloor.name=木衛一地牢地板
 
 tile.EuropaGrunt.name=木衛二表面方塊
 tile.EuropaIce.name=木衛二冰
+tile.EuropaStone.name=木衛二石頭
 tile.EuropaGeyzer.name=木衛二間歇泉
 tile.EuropaUnderwaterGeyser.name=木衛二水下噴泉
 
@@ -225,6 +238,7 @@ tile.BarnardaFSubGrunt.name=巴納德f地底岩石
 tile.UnknowWater.name=不明液體
 tile.Barnarda2Reed.Reed1.name=巴納德c蒲公英
 tile.Barnarda2Reed.Reed2.name=巴納德c飽滿的蒲公英
+tile.Stalactites.name=鐘乳石
 
 tile.VegaBGrunt.name=織女一b地表岩石
 tile.VegaBSubGrunt.name=織女一b地底岩石
@@ -257,6 +271,8 @@ tile.OxygenStorageModule.desc=改良版本的儲氧模組，可以儲存兩倍�
 tile.SolarPanel.name=混合太陽風發電機
 tile.SolarHybrid.desc=鍍金的混合面板，和之前的相比能產生出兩倍的能量。
 tile.coefficient.desc=發電係數
+tile.GravitationModule_4.name=重力模組
+tile.GravitationModule.desc=在半徑為8個方塊的空間裡生成一個G的重力。
 
 tile.tier4chest.description=4階寶箱在谷神星生成。擊殺BOSS後才能打開。
 tile.tier5chest.description=5階寶箱在木衛一生成。擊殺BOSS後才能打開。
@@ -397,6 +413,58 @@ gui.status.nofuelgenerator.name=沒有燃料
 gui.warning.atmosphericPressure=高壓！
 gui.message.biofuel.name=有機燃料
 
+gui.info.brown.name=棕色
+gui.info.red.name=紅色
+gui.info.orange.name=橙色
+gui.info.yellow.name=黃色
+gui.info.white.name=白色
+gui.info.lightblue.name=淺藍
+
+gui.info.dwarf.name=矮星
+gui.info.subdwarf.name=次矮星
+
+gui.info.selena.name=貧瘠星球
+gui.info.desert.name=沙漠星球
+gui.info.terra.name=陸地星球
+gui.info.gasgiant.name=氣體巨星
+gui.info.icegiant.name=冰巨星
+gui.info.iceworld.name=冰封星球
+gui.info.asteroid.name=小行星
+gui.info.oceanide.name=海洋星球
+gui.info.titan.name=冷濕星球
+
+gui.message.generalinformation=一般資訊:
+gui.message.physicalparameters=物理資訊:
+gui.message.atmosphericparameters=大氣資訊:
+gui.message.type=類型:
+gui.message.star=恒星
+gui.message.planet=行星
+gui.message.planets=行星:
+gui.message.moon=衛星
+gui.message.satellite=衛星
+gui.message.satellites=衛星:
+gui.message.class=種類:
+gui.message.gravity=重力:
+gui.message.daylength=自轉週期:
+gui.message.atmopressure=大氣壓力:
+gui.message.temperature=溫度:
+gui.message.windspeed=風速:
+gui.message.breathableatmo=可呼吸:
+gui.message.solarradiation=恒星輻射:
+gui.message.unknown=未知
+gui.message.traveltime=旅行時間:
+
+gui.module.caninstall=可以安裝模組-在你的快捷欄中選擇這個裝甲，然後按Shift+滑鼠右鍵。
+gui.module.installed=已安裝模組:
+gui.module.jetpack=噴氣背包
+gui.message.jetpack=你必需有噴氣背包模組！
+gui.module.sensor=感測器
+gui.message.sensor=你必需有感測器護目鏡模組！
+gui.module.gravitymodule=重力
+gui.message.gravitymodule=你必需有兩個緻密鎂板模組！
+
+gui.message.effectVisible.name=可見效果
+
 gui.quantbow.desc1=1.5倍耐久和2倍的傷害！
 gui.quantbow.desc2=火矢
 
@@ -457,35 +525,35 @@ planet.eris=鬩神星
 
 solarsystem.aCentauriSystem=南門二星系
 solarsystem.ProximaSystem=比鄰星系
-star.CentauriA=南門二A
-planet.CentauriB=南門二B
-planet.CentauriBb=南門二Bb
+star.CentauriA=南門二
+planet.CentauriB=馬腹一
+planet.CentauriBb=馬腹一b
 star.Proxima=比鄰星
 planet.ProximaB=比鄰星b
 
 solarsystem.BarnardsSystem=巴納德星系
 star.Barnarda=巴納德星
-planet.Barnarda1=巴納德b
-planet.Barnarda2=巴納德c
-planet.Barnarda3=巴納德d
-planet.Barnarda4=巴納德e
-planet.Barnarda5=巴納德f
-planet.Barnarda6=巴納德g
+planet.Barnarda1=巴納德 Ⅰ
+planet.Barnarda2=巴納德 Ⅱ
+planet.Barnarda3=巴納德 Ⅲ
+planet.Barnarda4=巴納德 Ⅳ
+planet.Barnarda5=巴納德 Ⅴ
+planet.Barnarda6=巴納德 Ⅵ
 planet.BarnardaAsteroids=巴納德星系小行星帶
 
 solarsystem.VegaSystem=織女星系
 star.Vega=織女一
-planet.Vega1=織女一b
-planet.Vega2=織女一c
+planet.Vega1=織女一 Ⅰ
+planet.Vega2=織女一 Ⅱ
 planet.VegaAsteroids=織女星系小行星帶
 planet.VegaAsteroids2=織女星系小行星帶
 
 solarsystem.TCetiSystem=天倉五星系
 star.TCetiA=天倉五
-planet.TCetiB=天倉五b
-planet.TCetiC=天倉五c
-planet.TCetiD=天倉五d
-planet.TCetiE=天倉五e
-planet.TCetiF=天倉五f
-planet.TCetiG=天倉五g
+planet.TCetiB=天倉五 Ⅰ
+planet.TCetiC=天倉五 Ⅱ
+planet.TCetiD=天倉五 Ⅲ
+planet.TCetiE=天倉五 Ⅳ
+planet.TCetiF=天倉五 Ⅴ
+planet.TCetiG=天倉五 Ⅵ
 planet.TCetiAsteroids=天倉五星系小行星帶
