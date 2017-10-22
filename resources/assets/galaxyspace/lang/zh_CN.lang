@@ -85,6 +85,18 @@ tile.DecoPlatinum.name=装饰铂块
 tile.DecoWolframium.name=装饰钨块
 tile.DecoCopper.name=装饰铜块
 
+tile.Lead.name=铅块
+tile.Adamantite.name=精金块
+tile.Cobalt.name=钴块
+tile.Duralumin.name=杜拉铝块
+tile.Magnesium.name=镁块
+tile.Mithril.name=秘银块
+tile.Nickel.name=镍块
+tile.Oriharukon.name=山铜块
+tile.Platinum.name=铂块
+tile.Wolframium.name=钨块
+tile.Copper.name=铜块
+
 tile.FutureGlass_None.name=未来玻璃
 tile.FutureGlass_Black.name=黑色未来玻璃
 tile.FutureGlass_Red.name=红色未来玻璃
@@ -152,6 +164,7 @@ tile.IODungFloor.name=木卫一地牢地板
 
 tile.EuropaGrunt.name=木卫二表面方块
 tile.EuropaIce.name=木卫二冰
+tile.EuropaStone.name=木卫二石头
 tile.EuropaGeyzer.name=木卫二间歇泉
 tile.EuropaUnderwaterGeyser.name=木卫二水下喷泉
 
@@ -225,6 +238,7 @@ tile.BarnardaFSubGrunt.name=巴纳德f地底岩石
 tile.UnknowWater.name=不明液体
 tile.Barnarda2Reed.Reed1.name=巴纳德c蒲公英
 tile.Barnarda2Reed.Reed2.name=巴纳德c饱满的蒲公英
+tile.Stalactites.name=钟乳石
 
 tile.VegaBGrunt.name=织女一b地表岩石
 tile.VegaBSubGrunt.name=织女一b地底岩石
@@ -257,6 +271,8 @@ tile.OxygenStorageModule.desc=改良版本的储氧模块，可以储存两倍�
 tile.SolarPanel.name=混合太阳风发电机
 tile.SolarHybrid.desc=镀金的混合面板，和之前的相比能产生出两倍的能量。
 tile.coefficient.desc=发电系数
+tile.GravitationModule_4.name=重力模块
+tile.GravitationModule.desc=在半径为8个方块的空间里生成一个G的重力。
 
 tile.tier4chest.description=4阶宝箱在谷神星生成。击杀BOSS后才能打开。
 tile.tier5chest.description=5阶宝箱在木卫一生成。击杀BOSS后才能打开。
@@ -397,6 +413,58 @@ gui.status.nofuelgenerator.name=没有燃料
 gui.warning.atmosphericPressure=高压！
 gui.message.biofuel.name=有机燃料
 
+gui.info.brown.name=棕色
+gui.info.red.name=红色
+gui.info.orange.name=橙色
+gui.info.yellow.name=黄色
+gui.info.white.name=白色
+gui.info.lightblue.name=浅蓝
+
+gui.info.dwarf.name=矮星
+gui.info.subdwarf.name=次矮星
+
+gui.info.selena.name=贫瘠星球
+gui.info.desert.name=沙漠星球
+gui.info.terra.name=陆地星球
+gui.info.gasgiant.name=气体巨星
+gui.info.icegiant.name=冰巨星
+gui.info.iceworld.name=冰封星球
+gui.info.asteroid.name=小行星
+gui.info.oceanide.name=海洋星球
+gui.info.titan.name=冷湿星球
+
+gui.message.generalinformation=一般信息:
+gui.message.physicalparameters=物理信息:
+gui.message.atmosphericparameters=大气信息:
+gui.message.type=类型:
+gui.message.star=恒星
+gui.message.planet=行星
+gui.message.planets=行星:
+gui.message.moon=卫星
+gui.message.satellite=卫星
+gui.message.satellites=卫星:
+gui.message.class=种类:
+gui.message.gravity=重力:
+gui.message.daylength=自转周期:
+gui.message.atmopressure=大气压力:
+gui.message.temperature=温度:
+gui.message.windspeed=风速:
+gui.message.breathableatmo=可呼吸:
+gui.message.solarradiation=恒星辐射:
+gui.message.unknown=未知
+gui.message.traveltime=旅行时间:
+
+gui.module.caninstall=可以安装模块-在你的快捷栏中选择这个装甲，然后按Shift+鼠标右键。
+gui.module.installed=已安装模块:
+gui.module.jetpack=喷气背包
+gui.message.jetpack=你必需有喷气背包模块！
+gui.module.sensor=传感器
+gui.message.sensor=你必需有传感器护目镜模块！
+gui.module.gravitymodule=重力
+gui.message.gravitymodule=你必需有两个致密镁板模块！
+
+gui.message.effectVisible.name=可见效果
+
 gui.quantbow.desc1=1.5倍耐久和2倍的伤害！
 gui.quantbow.desc2=火矢
 
@@ -457,35 +525,35 @@ planet.eris=阋神星
 
 solarsystem.aCentauriSystem=南门二星系
 solarsystem.ProximaSystem=比邻星系
-star.CentauriA=南门二A
-planet.CentauriB=南门二B
-planet.CentauriBb=南门二Bb
+star.CentauriA=南门二
+planet.CentauriB=马腹一
+planet.CentauriBb=马腹一b
 star.Proxima=比邻星
 planet.ProximaB=比邻星b
 
 solarsystem.BarnardsSystem=巴纳德星系
 star.Barnarda=巴纳德星
-planet.Barnarda1=巴纳德b
-planet.Barnarda2=巴纳德c
-planet.Barnarda3=巴纳德d
-planet.Barnarda4=巴纳德e
-planet.Barnarda5=巴纳德f
-planet.Barnarda6=巴纳德g
+planet.Barnarda1=巴纳德 Ⅰ
+planet.Barnarda2=巴纳德 Ⅱ
+planet.Barnarda3=巴纳德 Ⅲ
+planet.Barnarda4=巴纳德 Ⅳ
+planet.Barnarda5=巴纳德 Ⅴ
+planet.Barnarda6=巴纳德 Ⅵ
 planet.BarnardaAsteroids=巴纳德星系小行星带
 
 solarsystem.VegaSystem=织女星系
 star.Vega=织女一
-planet.Vega1=织女一b
-planet.Vega2=织女一c
+planet.Vega1=织女一 Ⅰ
+planet.Vega2=织女一 Ⅱ
 planet.VegaAsteroids=织女星系小行星带
 planet.VegaAsteroids2=织女星系小行星带
 
 solarsystem.TCetiSystem=天仓五星系
 star.TCetiA=天仓五
-planet.TCetiB=天仓五b
-planet.TCetiC=天仓五c
-planet.TCetiD=天仓五d
-planet.TCetiE=天仓五e
-planet.TCetiF=天仓五f
-planet.TCetiG=天仓五g
+planet.TCetiB=天仓五 Ⅰ
+planet.TCetiC=天仓五 Ⅱ
+planet.TCetiD=天仓五 Ⅲ
+planet.TCetiE=天仓五 Ⅳ
+planet.TCetiF=天仓五 Ⅴ
+planet.TCetiG=天仓五 Ⅵ
 planet.TCetiAsteroids=天仓五星系小行星带
